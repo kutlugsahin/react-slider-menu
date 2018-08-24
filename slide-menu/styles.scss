@@ -1,0 +1,41 @@
+$borderThickness: 1px;
+
+$border: $borderThickness solid #ccc;
+
+.slide-menu {
+	border: $border;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.slide-menu-item {
+	border-top: $border;
+	border-bottom: $border;
+	margin-top: (0 - $borderThickness);
+
+	&:last-child {
+		margin-bottom: (0 - $borderThickness);
+	}
+}
+
+.panel {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	&.animate {
+		transition: transform 0.3s ease;
+	}
+
+	&.left {
+		transform: translateX(-100%);
+	}
+
+	&.right {
+		transform: translateX(100%);
+	}
+
+	&.center {
+		transform: translate(0);
+	}
+}

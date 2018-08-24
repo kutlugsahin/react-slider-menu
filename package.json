@@ -1,0 +1,22 @@
+{
+  "name": "slide-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "typescript": "^3.0.1"
+  }
+}

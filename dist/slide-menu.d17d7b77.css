@@ -1,0 +1,29 @@
+.slide-menu {
+  border: 1px solid #ccc;
+  position: relative;
+  height: 100%;
+  overflow: hidden; }
+
+.slide-menu-item {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-top: -1px; }
+  .slide-menu-item:last-child {
+    margin-bottom: -1px; }
+
+.panel {
+  position: absolute;
+  height: 100%;
+  width: 100%; }
+  .panel.animate {
+    transition: transform 0.3s ease; }
+  .panel.left {
+    transform: translateX(-100%); }
+  .panel.right {
+    transform: translateX(100%); }
+  .panel.center {
+    transform: translate(0); }
+.app {
+  width: 500px;
+  height: 800px;
+  margin: 20px auto; }
